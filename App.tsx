@@ -9,6 +9,12 @@ import { TareaScreen } from './src/screens/TareaScreen'
 import { ExTwo } from './src/Exercise/ExTwo'
 import { ExThree } from './src/Exercise/ExThree'
 import { ExFour } from './src/Exercise/ExFour'
+import { ExFive } from './src/Exercise/ExFive'
+import { ExSix } from './src/Exercise/ExSix'
+import { ExSeven } from './src/Exercise/ExSeven'
+import { ExEight } from './src/Exercise/ExEight'
+import { ExNine } from './src/Exercise/ExNine'
+import { ExTen } from './src/Exercise/ExTen'
 
 const App = () => {
   return (
@@ -21,7 +27,13 @@ const App = () => {
       {/* <ExOne/> */}
       {/* <ExTwo/> */}
       {/* <ExThree/> */}
-      <ExFour/>
+      {/* <ExFour/> */}
+      {/* <ExFive/> */}
+      {/* <ExSix/> */}
+      {/* <ExSeven/> */}
+      {/* <ExEight/> */}
+      {/* <ExNine/> */}
+      <ExTen/>
     </SafeAreaView>
   )
 }
